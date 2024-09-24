@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+
+   .header{
+    display: flex;
+   }
+
+   #span1 {
+    display: flex;
+    flex: 1;
+}
+   #span2 {
+    display: flex;
+    flex: 1;
+    margin-left: 0% !important;
+
+    justify-content: flex-end;
+    padding-right: 20px;
+    }
+
+    .infoText{
+        display: none;
+    }
+
+    .pointer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pointer > i {
+        padding: 10px;
+    }
+
+}

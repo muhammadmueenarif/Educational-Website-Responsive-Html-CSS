@@ -1,0 +1,51 @@
+.container-one .learning-section {
+    margin-top: 0px !important;
+    width: 100%;
+    height: 75vh;
+    /* background-color: #2f2f2f; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-one .learning-section .learning-video #video-icon {
+    width: 30%;
+    height: 13vh;
+    margin-top: 50%;
+}
+
+.container-one .learning-section .learning-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    /* background-color: pink; */
+}
+
+.container-one .learning-section .learning-text h1 {
+    width: 80%;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.container-one .learning-section .learning-text p {
+    width: 90%;
+    height: 10vh;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 1.8rem;
+    /* line spacing */
+    line-height: 1.5;
+}
+
+.container-one .learning-section .learning-text button {
+    width: 25%;
+    height: 7vh;
+    /* background-color: red; */
+    margin-bottom: 15%;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 10%;
+}
